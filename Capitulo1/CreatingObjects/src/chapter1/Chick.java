@@ -15,5 +15,5 @@ public class Chick {
 	 *	Se ejecuta automáticamente con new
 	 * 
 	 */
-
+ 
 }
