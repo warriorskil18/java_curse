@@ -1,0 +1,98 @@
+package Class;
+
+public class Animal {
+	String name;
+	
+	/*FIELDS AND METHODS
+	 * 
+	 *Las clases Java tienen dos elementos promarios: methods, tambien llamadas funciones o proce-
+	 * dimientos y fields mas conocidos como variables 
+	 */
+	
+	//Un metodo es una operacionque puede ser llamada
+	//Asi mismo public puede ser llamada por otras clases
+	//Luego viene el tipo de retorno en este caso el metodo retorna un String 
+	public String getName() {
+		return name;
+	}
+	
+	/*Este es otro metodo el cual cuenta con un tipo de retorno especial llamada void
+	 *void significa que no se devuelve ningun valor
+	 *Este metodo requiere que se le asigne informacion desde el metodo de llamada el cual es 
+	 * un parametro
+	 *El setName tiene un parametro llamado newName el cual es de tipo String
+	 *Esto significa que quien lo llama debe pasar un parametro String y no esperar que nada
+	 * sea retornado   
+	 */
+	public void setName(String newName) {
+		name = newName;
+	}
+	
+	//Se retorna un tipo entero y un parametro llamado month de tipo int
+	public int numberVisitors(int month) {
+		return month;
+	}
+	
+	//COMMENTS
+	
+	/*Otra parte comun del codigo es llmada a comment (comentarios) por que los comentarios no son
+	 * codigo ejecutable.
+	 *Puedes colocarlos donde sea
+	 *Los comentarios hacen que el codigo sea mas facil de leer
+	 */
+	
+	//coment until end of line
+	
+	/*Multiple
+	 *line coment
+	 */
+	
+	/**
+	 * javadoc multiple-line comment
+	 * @author Warriorskil18
+	 */
+
+	/*
+	 *Este ultimo comentario es simillar al multiple linea coment a excepcion que el /**
+	 * es especial sintaxis ya que le dicel a la herramienta de javadoc que ponga atencion al 
+	 * comentario 
+	 */
+	
+	
+	/*CLASSES VS FILES
+	 * 
+	 *La mayoria del tiempo cada java class es definida en su propio *.java file. Es usualmente
+	 *	publico, lo que significa que cualquier codigo lo puede llamar, curiosamente java no 
+	 *	requiere que la calase sea publica por ejemplo: 
+	 */
+	
+	class Animal1{
+		private String name;
+	}
+	
+	
+	/*
+	 *Incluso puedes poner dos clases en el mismo archivo, cuando lo haces a lo sumo una de las
+	 *	clases del campo puede ser publica. eso significa que un archivo que contiene
+	 *	lo siguiente tambien es correcto
+	 */
+	
+	//Tiene que ser el mismo nombre de arriba pero marca error
+	public class Animal2{
+		private String name;
+	}
+	class Animal3{
+		
+	}
+	
+	/*
+	 *Si tienes una clase publica, tiene que coincidir con el nombre del archivo. 
+	 *	public class Animal 2
+	 */
+	
+	//Seguimos en class Zoo.
+	
+	
+	
+	
+}
