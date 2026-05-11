@@ -11,7 +11,7 @@ public class ImportExample {
 	public static void main(String[] args) {
 		
 		Random r = new Random(); //Esto no compila por que necesita la libreria correcta
-		System.out.println(r.nextInt(10));//Imprime un numero al azar entre 0 y 9
+		System.out.println(r.nextInt(10)); //Imprime un numero al azar entre 0 y 9
 		
 	
 /*import java.lang.System;

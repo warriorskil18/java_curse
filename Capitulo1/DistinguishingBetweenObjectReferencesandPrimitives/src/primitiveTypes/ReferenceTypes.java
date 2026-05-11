@@ -1,7 +1,6 @@
 package primitiveTypes;
 
-public class PrimitiveTypes {
-
+public class ReferenceTypes {
 	/*
 	 * Java applications contiene dos tipos de datos: tipos primitivos y tipos de referencia
 	 * 
@@ -66,5 +65,5 @@ public class PrimitiveTypes {
 		 
 		 
 	}
- 
+
 }
