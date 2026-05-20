@@ -43,6 +43,53 @@ public class LocalVariables {
 			return reply;
 			
 			
-			//76
-	}
+			/*
+			 * El compilador tambien es lo suficientemente inteligente para reconocer inicializaciones mas complejas
+			 * 
+			 */
+		}
+			
+			public void findAnswer(boolean check) {
+				int answer;
+				int onlyOneBranch;
+				if(check) {
+					onlyOneBranch = 1;
+					answer = 1;
+					}else {
+						answer = 2;
+					}
+				System.out.println(answer);
+			//	System.out.println(onlyOneBranch); // No compila
+			}
+			
+			//Instance and Class Variables
+			
+			/*
+			 * Se puede identificar una variable como de clase porque tiene la palabra clave "Static" antes
+			 * una variables es de clase si tiene una palabra static en su declaracion
+			 * Las variables de instancia y de clase no requieren inicializacion 
+			 * Tan pronto se declaran se les asigna un valor predeterminado, se necesita memorizar la siguiente tabla a excepcion de la referencia char
+			 * 
+			 * Para simplificarlo, recuerda que el compilador, no sabe qué valor usar y, por lo tanto, busca el tipo más simple que pueda asignarle: `null`
+			 * para un objeto y `0`/`false` para un tipo primitivo.
+			 * 
+			 * 
+			 * ----------------------------------------------------------------------------
+			 * Variable Type								Default Initialization Value
+			 * ----------------------------------------------------------------------------
+			 * boolean										false
+			 * byte, short, int, long						0 (in the type´s bit-lenght)
+			 * float, double								0.0 (in the type´s bit-lenght)
+			 * char											\\u000 (NULL)
+			 * "all object references (everything else)  	null
+			 *  ---------------------------------------------------------------------------
+			 * 
+			 * 
+			 * 
+			 */
+			
+			
+			
+			
+	
 }
